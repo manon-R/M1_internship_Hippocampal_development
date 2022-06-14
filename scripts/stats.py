@@ -55,8 +55,6 @@ datas = {"T1 Control group Volumes":controls_vol_T1,
         "T1 Patient group R1" : patients_R1_T1, 
         "T2 Patient group R1" : patients_R1_T2} 
 
-
-
 # Note : Only one male patient ! 
 datas_Gender = {"T1 Control group Female Volumes":controls_vol_T1[controls_vol_T1.Gender == 'F' ],
         "T1 Control group Male Volumes":controls_vol_T1[controls_vol_T1.Gender == 'M' ],  
